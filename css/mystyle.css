@@ -1,0 +1,140 @@
+/*
+* Modifies the breadcrumb, centers the text
+*/ 
+li.breadcrumb-item {
+	display: block;
+	margin:auto;	
+}
+
+/*
+* Modifies the text within the breadcrumb, changes text to white 
+*/ 
+.breadcrumb-item.active{
+	color:white;
+}
+
+/*
+* Modifies the breadcrumb under nav bar, changes the colouring
+*/ 
+ol.breadcrumb{
+	box-shadow: 0px 10px 5px grey;
+	background-color: #5d5d7e !important;
+}
+
+/*
+* Modifies the carousel on index and indexLog
+*/ 
+.carousel1 {
+  margin: auto;
+  display: block;
+  height: 100% !important;
+  max-width: 100% !important;
+  padding-bottom: 10px;
+}
+
+/*
+* Modifies responsive tables
+*/ 
+.embed-responsive{
+  margin: auto;
+  display: block;
+  height: 100% !important;
+  max-width: 100% !important;
+}
+
+/*
+* Modifies the images used for player cards
+*/ 
+.card-img-top{
+	height:100%;
+}
+
+/*
+* Modifies standard tables
+*/ 
+.table {
+   margin: auto;
+   width: 100%; 
+}
+
+/*
+* Modifies standard tables, th element
+*/ 
+table th {
+   text-align: center; 
+}
+
+/*
+* Modifies the navigation bar 
+*/ 
+nav#fanzineheader
+{
+  background-image: linear-gradient(#002366, #0a1e55);
+  display: flex;
+  padding: .5rem 1rem;
+}
+
+/*
+* Modifies the navigation bar 
+*/ 
+.navbar-collapse {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;   
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+/*
+* Modifies the navbar-brand
+*/ 
+#badge
+{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/*
+* Modifies the body, changes font style and background of every page
+*/ 
+body{
+	background-color:#d7d6e4;
+	font-family: "Lucida Console";
+	/*font-family:"Impact, Charcoal, sans-serif";*/
+}
+	
+/*
+* Modifies 
+*/ 
+#datalink{
+	background-color:#b0aeca;
+}
+
+/*
+* Modifies 
+*/ 
+.b {
+  line-height: 1.6;
+}
+
+/*
+* Modifies the newsletter signup
+*/ 
+ #footer{
+   display: table;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: linear-gradient(#002366, #0a1e55);
+  display: flex;
+  padding: .5rem 1rem;
+}
+
+/*
+* Changes colour of card body
+*/ 
+.card-body {
+	background-color:#b0aeca;
+}
